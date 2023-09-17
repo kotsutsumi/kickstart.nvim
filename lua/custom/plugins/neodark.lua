@@ -1,0 +1,3 @@
+return {
+	'KeitaNakamura/neodark.vim'
+}
