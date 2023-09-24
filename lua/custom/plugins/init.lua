@@ -76,6 +76,8 @@ keymap("n", "<Space>l", "$", opts)
 -- ESC*2 でハイライトやめる
 keymap("n", "<Esc><Esc>", ":<C-u>set nohlsearch<Return>", opts)
 
+keymap("n", "<M-S-l>", "<Cmd>Format<CR>", opts)
+
 
 -- Insert --
 --
