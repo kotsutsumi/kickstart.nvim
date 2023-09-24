@@ -11,7 +11,7 @@ return {
 		'obaland/vfiler-fzf'
 	},
 	config = function()
-		vim.keymap.set('n', '<leader>o',
+		vim.keymap.set('n', '<leader>O',
 			":VFiler -auto-cd -auto-resize -keep -layout=left -name=explorer -width=30 -columns=indent,devicons,name<CR>",
 			{ desc = 'VFiler: open' })
 	end,

@@ -133,8 +133,7 @@ require('lazy').setup({
   },
 
   {
-    -- Theme inspired by Atom
-    'navarasu/onedark.nvim',
+    "tyrannicaltoucan/vim-deep-space",
     priority = 1000,
     config = function()
       vim.cmd.colorscheme 'deep-space'
