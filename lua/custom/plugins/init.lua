@@ -78,11 +78,16 @@ keymap("n", "<Esc><Esc>", ":<C-u>set nohlsearch<Return>", opts)
 
 keymap("n", "<M-S-l>", "<Cmd>Format<CR>", opts)
 
+-- Tabでインデント
+keymap("n", "<Tab>", ">>", opts)
+keymap("n", "<S-Tab>", "<<", opts)
+
 
 -- Insert --
 --
 -- Press jk fast to exit insert mode
 keymap("i", "jk", "<ESC>", opts)
+
 
 
 -- コンマの後に自動的にスペースを挿入
@@ -102,6 +107,11 @@ keymap("i", "jk", "<ESC>", opts)
 
 
 -- vim.cmd.colorscheme 'deep-space'
+
+-- Tabでインデント
+keymap("v", "<Tab>", ">gv", opts)
+keymap("v", "<S-Tab>", "<gv", opts)
+
 return {
 
 }
