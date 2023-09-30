@@ -1,5 +1,5 @@
 return {
-	"tyrannicaltoucan/vim-deep-space"
+    "tyrannicaltoucan/vim-deep-space"
 }
 
 -- EOF
